@@ -1,0 +1,27 @@
+# Build and install folders
+build/
+install/
+log/
+
+# ROS 2 specific
+*.pyc
+*.pyo
+*.swp
+*.DS_Store
+
+# Colcon build files
+colcon.meta
+
+# IDE/editor folders
+.vscode/
+.idea/
+*.code-workspace
+
+# MacOS specific
+.DS_Store
+
+# Python cache
+_pycache_/
+
+# Waypoints file (optional - if you don't want to upload your saved waypoints)
+waypoints.json
